@@ -1,0 +1,102 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+
+  margin: 0;
+  padding: 0;
+}
+.gotopbutton{
+  position: fixed;
+  width: 75px;
+  height: 50px;
+  background: #633103;
+  bottom: 40px;
+  right: 50px;
+
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+}
+.coffee-image{
+border-style: solid;
+margin: 15px;
+}
+hr{
+  margin: 16px;
+}
+div.header{
+  float: right;
+  width: calc(100% - 250px);
+}
+.coffee-image{
+  max-width: 200px;
+}
+h1{
+  text-align: center;
+  color: #804503;
+}
+h3{
+  font-size: 30px;
+}
+.header{
+  font-size: 20px;
+}
+.content{
+  margin: 0;}
+.content li:before {
+  color: #36ab00;
+  font-size: 1em;
+}
+ul {
+  padding: 0;
+}
+.content li{
+  display: block;
+  position: relative;
+}
+.buttons{
+margin: auto;
+margin-bottom: 15px;
+text-align: center;
+display: grid;
+width: 10%;
+}
+#espresso{
+  color: #804503;
+}
+#double{
+  color: aqua;
+}
+#red{
+  color: #36ab00;
+}
+#black{
+  color: blue;
+}
+#americano{
+  color: coral;
+}
+#long{
+  color: darkblue;
+}
+#macchiato{
+  color: darkmagenta;
+}
+#longmac{
+  color: darkslategrey;
+}
+#cortado{
+  color: firebrick;
+}
+#cappucino{
+  color: yellow;
+}
+.frames{
+  display: none;
+  margin: 20px;
+  max-height: 70%;
+  max-width: 90%;
+}
